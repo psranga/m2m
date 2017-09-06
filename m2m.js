@@ -120,6 +120,8 @@ function m2m_convert_inline_styles(elem) {
         if (elem.nodeName !== 'FIGCAPTION') {
           output += '<br>\n';
         }
+      } else if (tag === 'CODE') {
+        output += '`' + child.textContent + '`';
       }
     }
   }
