@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Convert Medium Posts to Markdown",
   "description": "This extension converts a Medium post into Markdown",
-  "version": "0.0.0.1",
+  "version": "0.0.0.2",
   "content_scripts": [
     {
       "matches": ["https://medium.com/p/*"],
